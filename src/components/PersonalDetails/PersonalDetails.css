@@ -1,0 +1,42 @@
+.personal-details-page{
+    text-align: center;
+    background-image: url(/src/assests/personal-details-bg.jpg)
+}
+
+.pd-card{
+    width: 50em;
+    margin: auto;
+    margin-top: 10px !important;
+}
+
+textarea{
+    resize: none;
+}
+
+.profile-img{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    margin: auto;
+    filter: drop-shadow(0 0 8px #5073f0);
+}
+
+.img-upload{
+    margin: auto;
+    margin-left: 245px;
+    border: none;
+    color: red;
+}
+
+ .input-text {
+    filter: drop-shadow(0 0 3px #5073f0);
+}
+
+.label-text{
+    color: rgb(39, 39, 138);
+}
+
+.save-btn{
+    margin: auto;
+}
+

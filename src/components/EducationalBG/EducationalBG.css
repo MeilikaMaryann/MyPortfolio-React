@@ -1,0 +1,30 @@
+.form{
+    height: 500px;
+    text-align: center;
+}
+
+.showEducation{
+    background-color: rgb(205, 228, 236);
+    height: auto;
+    width: 100%;
+  }
+
+  .education-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    color: #345676;
+}
+
+.education-title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #d43076;
+  bottom: 0;
+  left: 0;
+}

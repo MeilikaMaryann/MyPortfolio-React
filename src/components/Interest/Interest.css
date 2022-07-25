@@ -1,0 +1,55 @@
+/* .interest{
+    height: 300px;
+    color:black;
+    text-align: center;
+    background-color:bisque;
+}
+.buttonbtn
+{
+    padding: 10px;
+  border: 1px solid gray;
+  background-color:#B4886B;
+  border-radius: 5px;
+  font: inherit;
+}
+.add_Interest{
+    padding: 10px;
+    border: 1px solid gray;
+    background-color:#B4886B;
+    border-radius: 5px;
+    font: inherit;
+} 
+
+input[type=text] {
+    padding:10px;
+    margin:10px 0;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+  } */
+
+  .showInterest{
+    background-color: rgb(205, 228, 236);
+    height: auto;
+    width: 100%;
+  }
+
+  .interest-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    color: #345676;
+}
+
+.interest-title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #d43076;
+  bottom: 0;
+  left: 0;
+}
